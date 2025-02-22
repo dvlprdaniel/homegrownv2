@@ -1,0 +1,23 @@
+body {
+	background-color: lightslategrey;
+	background-image: url('hg-image2.jpg');
+	background-size: cover;
+}
+
+div {
+	width: 70%;
+	height: 100px;
+	margin: 50px auto;
+	background: linear-gradient(
+		53deg,
+	    #ccfffc,
+		#ffcccf
+		);
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid darkolivegreen;
+}
+
+div:hover {
+	transform: scale(1.1);
+}
